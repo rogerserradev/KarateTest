@@ -5,7 +5,7 @@ import com.intuit.karate.junit5.Karate;
 public class DragonBallRunner {
 
     @Karate.Test
-    Karate testUsers() {
+    Karate testDragonBall() {
         return Karate.run("dragonball").relativeTo(getClass());
     }
 
